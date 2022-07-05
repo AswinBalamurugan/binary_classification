@@ -16,7 +16,7 @@ There are 25 variables which contain the following information:
 * Default details
 
 # Solution
-To develop a suitable model to predict if a new customer will default the payment next month, given the requisite information. Accuracy score from sklearn was used to compare the efficiency of the models.
+To develop a suitable model to predict if a new customer will default the payment next month, given the requisite information. Accuracy score from sklearn was used to compare the efficiency of the models. For KNN Classifier, SVM and Neural Networks, the data was scaled using Standard Scaler.
 
 # Models
 Given below are the models that were applied alongwith their accuracy scores:
@@ -29,4 +29,4 @@ Given below are the models that were applied alongwith their accuracy scores:
 
 # Conclusion
 Support Vector Machines gave predictions with the highest accuracy among the applied models.  
-Based on my learning, Support Vector Machines would be recommended to solve this problem.
+Based on my learning, scaling the data with Standard Scaler and then applying Support Vector Machines model would be recommended to solve this problem.
